@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: deepskyblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+main,
+.logo,
+.signup,
+legend {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+main,
+.logo {
+    margin-top: 50px;
+}
+
+.logo {
+    height: 35px;
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+/*Form*/
+
+.signup {
+    background-color: #FFFFFF;
+    width: 400px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border-radius: 3px;
+}
+
+.signup input {
+    width: 320px;
+    border: 2px solid #EEEEEE;
+    height: 55px;
+    display: block;
+    padding: 15px;
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+.signup input[type="button"] {
+    color: white;
+    background-color: #65c470;
+}
+
+.signup input[type="button"]:hover {
+    background-color: darkgreen;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+
+.reset {
+    text-align: center;
+    margin: 0, auto;
+}
+
+.reset a:link {
+    color: #999999;
+    text-decoration: underline;
+}
+
+legend {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 35px;
+}
+
+.login {
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.login a:link {
+    color: #FFFFFF;
+}
